@@ -64,7 +64,7 @@ private fun MyApp() {
 @Composable
 fun OnboardingScreen(onContinueClicked: () -> Unit) {
 
-    Surface {
+    Surface { 
         Column(
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
